@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mentz_task"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:5:5-77
+12-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:6:5-84
+13-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:6:22-82
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+14-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+15-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:connectivity_plus] /Users/rizwanahmed/Documents/mentz_task/build/connectivity_plus/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+16-->[:connectivity_plus] /Users/rizwanahmed/Documents/mentz_task/build/connectivity_plus/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+17
+18    <application
+19        android:name="android.app.Application"
+19-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:9:9-42
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="mentz_task" >
+22-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:8:9-35
+23        <activity
+23-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:11:9-31:20
+24            android:name="com.example.mentz_task.MainActivity"
+24-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:12:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:16:13-163
+26            android:exported="true"
+26-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:13:13-36
+27            android:hardwareAccelerated="true"
+27-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:17:13-47
+28            android:launchMode="singleTop"
+28-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:14:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:15:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:18:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:23:13-26:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:24:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:25:15-52
+41
+42            <intent-filter>
+42-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:27:13-30:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:28:17-68
+43-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:29:17-76
+45-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:29:27-74
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             Don't delete the meta-data below.
+50             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+51        -->
+52        <meta-data
+52-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:34:9-36:33
+53            android:name="flutterEmbedding"
+53-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:35:13-44
+54            android:value="2" />
+54-->/Users/rizwanahmed/Documents/mentz_task/android/app/src/main/AndroidManifest.xml:36:13-30
+55
+56        <service
+56-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+57            android:name="com.lyokone.location.FlutterLocationService"
+57-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+58            android:enabled="true"
+58-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+59            android:exported="false"
+59-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+60            android:foregroundServiceType="location" />
+60-->[:location] /Users/rizwanahmed/Documents/mentz_task/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+61
+62        <uses-library
+62-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+63            android:name="androidx.window.extensions"
+63-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+66            android:name="androidx.window.sidecar"
+66-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bdcb4bc59a1bd91b4a4b1c3fdd407b8c/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bdcb4bc59a1bd91b4a4b1c3fdd407b8c/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bdcb4bc59a1bd91b4a4b1c3fdd407b8c/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bdcb4bc59a1bd91b4a4b1c3fdd407b8c/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/303ce4bb3620ac7fd88cf3aa7e972d4e/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/303ce4bb3620ac7fd88cf3aa7e972d4e/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:16.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/303ce4bb3620ac7fd88cf3aa7e972d4e/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+77    </application>
+78
+79</manifest>

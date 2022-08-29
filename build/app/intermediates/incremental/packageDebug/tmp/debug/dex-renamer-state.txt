@@ -1,0 +1,4 @@
+#Mon Aug 29 14:13:58 CEST 2022
+base.0=/Users/rizwanahmed/Documents/mentz_task/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
